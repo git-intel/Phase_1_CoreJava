@@ -17,4 +17,27 @@ public class overload {
 	public static int calculate(double width, double height) {
 		return  ((int)(width)) * ((int)height);
 	}
+	/*
+	 * 
+
+assignment 1: (function overloading) - session 2
+
+Note **: create function name as "calculate"
+
+create three functions in a class
+
+1) create method of return type int
+
+   - add two numbers
+
+2) one of return type float
+
+  to calculate the area of the circle
+
+3) one of return type int
+
+   area of the rectangle
+
+from Virendra . to All Participan
+	 */
 }
