@@ -38,7 +38,7 @@
 		
 		Assignment submitted at 
 		git@github.com:git-intel/Phase_1_CoreJava.git
-//		>>> assignment.modifiers
+//		>>> assignment.one
 
 
  *
@@ -46,8 +46,8 @@
  */
 /**
  * Assignment: 21-09-26
- * (1)
- * 		assignment 1: (function overloading) - session 2
+ * (2)
+ * 		assignment 2: (function overloading) - session 2
 		
 		Note **: create function name as "calculate"
 		
@@ -69,8 +69,8 @@
 		
 //		>>>assignment.fuction.overloading
 		
- * (2)
-		Assignment 2:(method + constructors)
+ * (3)
+		Assignment 3:(method + constructors)
 		 * 		to be done in week days
 		 
 		I want to calculate the area of the different shapes 
@@ -87,8 +87,8 @@
 			using the method overloading concept
 			
 //		>>>assignment.constructor.shapes.area	
-* (3)
-		Assignment 3: create the 4 student objects with name s1,s2,s3,s4
+* (4)
+		Assignment 4: create the 4 student objects with name s1,s2,s3,s4
 			
 		declare the class member variables with String name, int age, 
 		section(char type), gender (char type), and
@@ -102,8 +102,8 @@
 		
 //		>>>assignment.constructor.overloading
 
- * (4) 
- * 		Assignment 4:
+ * (5) 
+ * 		Assignment 5:
 		String t= "Delhi";  
 		String o = "Mumbai";
 		String k= "delhi";  
