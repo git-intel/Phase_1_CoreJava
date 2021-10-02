@@ -67,7 +67,7 @@
 		
 		from Virendra . to All Participan
 		
-//		>>>assignment.fuction.overloading
+//		>>>assignment.two
 		
  * (3)
 		Assignment 3:(method + constructors)
@@ -86,7 +86,7 @@
 		3. calculate the area of the rhombus and triangle 
 			using the method overloading concept
 			
-//		>>>assignment.constructor.shapes.area	
+//		>>>assignment.three	
 * (4)
 		Assignment 4: create the 4 student objects with name s1,s2,s3,s4
 			
@@ -100,7 +100,7 @@
 		and for s2 and s3 students we will not pass subject 1 marks 
 		so it is 0 so don't pass it in constructor.	
 		
-//		>>>assignment.constructor.overloading
+//		>>>assignment.four
 
  * (5) 
  * 		Assignment 5:
@@ -118,7 +118,7 @@
 		(4) k with y
 		(5) p with y
 		
-//		>>>assignment.string.literals
+//		>>>assignment.five
 			
  */
 package assignment;
