@@ -1,4 +1,4 @@
-package assignment.four.constructor_overloading;
+package assignment.a2.constructor_methods.a2_3_calculate_marks_percentile;
 //Assignment_3_26-spt-21_constructor_overloading
 /*
  * Assignment 3: create the 4 student objects with name s1,s2,s3,s4

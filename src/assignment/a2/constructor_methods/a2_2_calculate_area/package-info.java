@@ -15,4 +15,4 @@
 		3. calculate the area of the rhombus and triangle 
 			using the method overloading concept
  */
-package assignment.three.constructor_shapes_area;
+package assignment.a2.constructor_methods.a2_2_calculate_area;

@@ -1,4 +1,4 @@
-package assignment.five.string_literals;
+package assignment.a3.strings;
 
 public class stringLiteral {
 

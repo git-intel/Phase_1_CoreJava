@@ -1,4 +1,4 @@
-package assignment.three.constructor_shapes_area;
+package assignment.a2.constructor_methods.a2_2_calculate_area;
 
 public class AreaOfShapes {
 	double area;
