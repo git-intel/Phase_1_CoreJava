@@ -1,8 +1,8 @@
-package assignment.one.modifiers.pkg.two;
+package assignment.a1.access_modifiers.pkg_two;
 
 
-import assignment.one.modifiers.pkg.one.M;
-import assignment.one.modifiers.pkg.one.N;
+import assignment.a1.access_modifiers.pkg_one.M;
+import assignment.a1.access_modifiers.pkg_one.N;
 
 public class Y extends N{
 

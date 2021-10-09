@@ -1,4 +1,4 @@
-package assignment.one.modifiers.pkg.one;
+package assignment.a1.access_modifiers.pkg_one;
 
 public class P {
 

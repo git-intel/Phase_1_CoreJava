@@ -1,4 +1,4 @@
-package assignment.one.modifiers.pkg.one;
+package assignment.a1.access_modifiers.pkg_one;
 
 public class N {
 	protected long var_n_l = 11233232323l;

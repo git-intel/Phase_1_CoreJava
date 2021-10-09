@@ -1,4 +1,4 @@
-package assignment.one.modifiers.pkg.two;
+package assignment.a1.access_modifiers.pkg_two;
 
 public class X {
 	 private  int var_x_i = 20;
