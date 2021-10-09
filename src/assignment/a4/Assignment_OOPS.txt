@@ -1,38 +1,38 @@
 Assignment 1:
 
 Vechile:(Parent)
-- create two abstract methods  - run() and stop()
-- create three methods of public void fuel - 1st method will take int / 2nd method will float and string  / 3rd method will take char and int (method overloading)
-- declare two variables - int speed and long distance
-- create two constructors also- default and parametrized
+>- create two abstract methods  - run() and stop()
+>- create three methods of public void fuel - 1st method will take int / 2nd method will float and string  / 3rd method will take char and int (method overloading)
+>- declare two variables - int speed and long distance
+ 
 
 2W:
-- oveeride the two methods - run() and stop()
-- create default constructor
-- declare two variables - int speed and long distance with different values from the parent vechile
-- decalre one more variable as int nos_of_tyre = 2
-- create methods here also as display() --> this will print the three variables of 2W  + all the variable of the parent Vechile  (hint: super.variable_name)
+>- oveeride the two methods - run() and stop()
+>- create default constructor
+>- declare two variables - int speed and long distance with different values from the parent vechile
+>- decalre one more variable as int nos_of_tyre = 2
+>- create methods here also as display() --> this will print the three variables of 2W  + all the variable of the parent Vechile  (hint: super.variable_name)
 
 3W:
-- oveeride the two methods - run() and stop()
-- - create default constructor
-- declare two variables - int speed and long distance with different values from the parent vechile
-- decalre one more variable as int nos_of_tyre = 3
-- create methods here also as display() --> this will print the three variables of 3W  + all the variable of the parent Vechile
+>-oveeride the two methods - run() and stop()
+>-- create default constructor
+>-declare two variables - int speed and long distance with different values from the parent vechile
+>-decalre one more variable as int nos_of_tyre = 3
+>-create methods here also as display() --> this will print the three variables of 3W  + all the variable of the parent Vechile
 
 4W:
-- oveeride the two methods - run() and stop()
-- create default constructor
-- declare two variables - int speed and long distance with different values from the parent vechile
-- decalre one more variable as int nos_of_tyre = 4
-- create methods here also as display() --> this will print the three variables of 4W  + all the variable of the parent Vechile
+>-oveeride the two methods - run() and stop()
+>-create default constructor
+>-declare two variables - int speed and long distance with different values from the parent vechile
+>-decalre one more variable as int nos_of_tyre = 4
+>-create methods here also as display() --> this will print the three variables of 4W  + all the variable of the parent Vechile
 
 8W:
-- oveeride the two methods - run() and stop()
-- create default constructor
-- declare two variables - int speed and long distance with different values from the parent vechile
-- decalre one more variable as int nos_of_tyre = 8
-- create  methods here also as display() --> this will print the three variables of 8W  + all the variable of the parent Vechile
+>-oveeride the two methods - run() and stop()
+>-create default constructor
+>-declare two variables - int speed and long distance with different values from the parent vechile
+>-decalre one more variable as int nos_of_tyre = 8
+>-create  methods here also as display() --> this will print the three variables of 8W  + all the variable of the parent Vechile
 
   Main()
   - call all the methods using dynamic/runtime polymorphism here

@@ -1,23 +1,40 @@
 package assignment.a4.oops.a4_1_polymorphism;
 
 public abstract class vehicle {
-
+	int speed;
+	long distance;
+	
 	public vehicle() {
-		setSpeed(0);
-		setDistance(0l);
+		speed = 0;
+		distance = 0l;
 	}
 	public vehicle(int speed, long distance) {
-		this.setSpeed(speed);
-		this.setDistance(distance);
+		this.speed = speed;
+		this.distance = distance;
 	}
-	private int speed;
-	private long distance;
+
 	
-	public abstract String run();
-	public abstract String stop();
+	public abstract void run();
+	public abstract void stop();
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+		vehicle v = new TwoWheeler(20, 70, 2);
+		v.run();
+		((TwoWheeler) v).display();
+		v.stop();
+		v = new ThreeWheeler(30, 70, 3);
+		v.run();
+		((ThreeWheeler) v).display();
+		v.stop();
+		v = new FourWheeler(40, 70, 3);
+		v.run();
+		((FourWheeler) v).display();
+		v.stop();
+		v = new EightWheeler(80, 70, 3);
+		v.run();
+		((EightWheeler) v).display();
+		v.stop();
 
 	}
 	public void fuel(int p1) {
@@ -29,30 +46,30 @@ public abstract class vehicle {
 	public void fuel(char p1, int p2) {
 		
 	}
-	/**
-	 * @return the speed
-	 */
-	public int getSpeed() {
-		return speed;
-	}
-	/**
-	 * @param speed the speed to set
-	 */
-	public void setSpeed(int speed) {
-		this.speed = speed;
-	}
-	/**
-	 * @return the distance
-	 */
-	public long getDistance() {
-		return distance;
-	}
-	/**
-	 * @param distance the distance to set
-	 */
-	public void setDistance(long distance) {
-		this.distance = distance;
-	}
+//	/**
+//	 * @return the speed
+//	 */
+//	public int getSpeed() {
+//		return speed;
+//	}
+//	/**
+//	 * @param speed the speed to set
+//	 */
+//	public void setSpeed(int speed) {
+//		this.speed = speed;
+//	}
+//	/**
+//	 * @return the distance
+//	 */
+//	public long getDistance() {
+//		return distance;
+//	}
+//	/**
+//	 * @param distance the distance to set
+//	 */
+//	public void setDistance(long distance) {
+//		this.distance = distance;
+//	}
 
 	
 }
