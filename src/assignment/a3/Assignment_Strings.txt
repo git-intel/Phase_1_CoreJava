@@ -1,0 +1,18 @@
+Assignment 1:
+
+Calculate the number of objects created inside the string pool and heap.
+Also compare the below objects using the equals and ==
+
+String t= "Delhi";   
+String o = "Mumbai"; 
+String k= "delhi";   
+String y= new String ("Mumbai");   
+String l= new String ("delhi");  
+String p = new String("Hello");  
+
+equals and ==
+(1) o with l
+(2) y with p
+(3) t with o
+(4) k with y
+(5) p with y
