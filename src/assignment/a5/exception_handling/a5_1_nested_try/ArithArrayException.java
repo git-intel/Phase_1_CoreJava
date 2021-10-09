@@ -17,7 +17,7 @@ public class ArithArrayException {
 			firstMethod();
 			SecondMethod();
 		} catch (Exception e) {
-			System.out.println("");
+			System.out.println("main catch block");
 		} finally {
 			System.out.println("outter Finally");
 		}
