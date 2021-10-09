@@ -1,6 +1,6 @@
 package assignment.a5.exception_handling.a5_3_salary_exception;
 
-public class SalaryException {
+public class SalaryOfEmployee {
 	   int salary;
 	   static void checkSalary(int sal) throws PerformanceException{  
 		     if(sal<2000)  
@@ -15,7 +15,7 @@ public class SalaryException {
 	   
 	   public static void main(String args[]){  
 		      try { 
-		    	  SalaryException person = new SalaryException();
+		    	  SalaryOfEmployee person = new SalaryOfEmployee();
 		    	  person.salary = 2999;
 		    	  checkSalary(person.salary);  
 		      }
