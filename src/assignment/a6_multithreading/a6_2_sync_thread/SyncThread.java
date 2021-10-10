@@ -6,16 +6,17 @@ class Factorial {
 	  
 	void printFactorial(int n) {  
 		 synchronized(this){
-			try {  
-				long fact = 1l;	
+			 
+//				System.out.println("@printFactorial() - "+ Thread.currentThread().getName() + "Begins");
+			 long fact = 1l;	
 				for(int i=1;i<=n;i++) {    
 					fact=(long) fact*i;   
-					
 				}    
-				Thread.sleep(400);  
-				System.out.println("@printFactorial() - "+ Thread.currentThread().getName() + " = " + fact);
-			}
-			catch(Exception e){System.out.println(e);}  
+				try {  
+					Thread.sleep(400);  
+				}
+				catch(Exception e){System.out.println(e);}  
+			System.out.println("@printFactorial() - "+ Thread.currentThread().getName() + " = " + fact);
 			
 		}
 	 }//end of the method  
@@ -25,13 +26,14 @@ class Sum {
 	void printSum(int n1, int n2 ) {  
 		 synchronized(this){
 	 		 
+			 long sum = 0l;	
+			 sum = n1 + n2;
 			 try {  
-				 long sum = 0l;	
-				 sum = n1 + n2;
+//				 System.out.println("@printSum() - "+ Thread.currentThread().getName() + "Begins");
 				 Thread.sleep(400);  
-				 System.out.println("@printSum() - "+ Thread.currentThread().getName() + " = " + sum);
 			 }
 			 catch(Exception e){System.out.println(e);}  
+			 System.out.println("@printSum() - "+ Thread.currentThread().getName() + " = " + sum);
 		 }
 	   
 	 }//end of the method  
@@ -84,10 +86,10 @@ public class SyncThread  {
 		t3.setName("process 2- thread3");
 		t4.setName("process 2- thread4");
 		
-		t1.start();  
 		t2.start(); 
-		t3.start();  
 		t4.start(); 
+		t1.start();  
+		t3.start();  
 	}
 
 }
