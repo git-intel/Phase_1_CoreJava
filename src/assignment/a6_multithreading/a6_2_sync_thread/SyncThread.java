@@ -4,32 +4,35 @@ package assignment.a6_multithreading.a6_2_sync_thread;
 
 class Factorial {  
 	  
-	synchronized void printFactorial(int n) {  
-	  long fact = 1l;	
-	  for(int i=1;i<=n;i++) {    
-	      fact=(long) fact*i;   
-
-	  }    
-	  System.out.println(Thread.currentThread().getName());
-	  System.out.println("@printFactorial()" + fact);
-      try {  
-	   Thread.sleep(400);  
-	  }
-      catch(Exception e){System.out.println(e);}  
-	   
+	void printFactorial(int n) {  
+		 synchronized(this){
+			try {  
+				long fact = 1l;	
+				for(int i=1;i<=n;i++) {    
+					fact=(long) fact*i;   
+					
+				}    
+				Thread.sleep(400);  
+				System.out.println("@printFactorial() - "+ Thread.currentThread().getName() + " = " + fact);
+			}
+			catch(Exception e){System.out.println(e);}  
+			
+		}
 	 }//end of the method  
 }  
 class Sum {  
 	  
-	synchronized void printSum(int n1, int n2 ) {  
-	  long sum = 0l;	
-	  sum = n1 + n2;
-	  System.out.println(Thread.currentThread().getName());
-	  System.out.println("@printSum()" + sum);
-      try {  
-	   Thread.sleep(400);  
-	  }
-      catch(Exception e){System.out.println(e);}  
+	void printSum(int n1, int n2 ) {  
+		 synchronized(this){
+	 		 
+			 try {  
+				 long sum = 0l;	
+				 sum = n1 + n2;
+				 Thread.sleep(400);  
+				 System.out.println("@printSum() - "+ Thread.currentThread().getName() + " = " + sum);
+			 }
+			 catch(Exception e){System.out.println(e);}  
+		 }
 	   
 	 }//end of the method  
 }  
