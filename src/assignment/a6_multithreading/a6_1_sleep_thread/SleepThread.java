@@ -1,10 +1,10 @@
 package assignment.a6_multithreading.a6_1_sleep_thread;
 
-public class SleepThread extends Thread{  
+public class SleepThread extends Thread {  
 	
-	 public void run(){  
-	  for(int i=1;i<5;i++){  
-	    try{
+	 public void run() {  
+	  for(int i=1;i<6;i++){  
+	    try {
 	    		Thread.sleep(1000);
 //	    		System.out.println(Thread.currentThread().getState()); 
 	    	}
