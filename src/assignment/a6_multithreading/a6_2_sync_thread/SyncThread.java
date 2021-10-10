@@ -5,11 +5,12 @@ package assignment.a6_multithreading.a6_2_sync_thread;
 class Factorial {  
 	  
 	synchronized void printFactorial(int n) {  
-	  long fact = 0l;	
+	  long fact = 1l;	
 	  for(int i=1;i<=n;i++) {    
 	      fact=(long) fact*i;   
 
 	  }    
+	  System.out.println(Thread.currentThread().getName());
 	  System.out.println("@printFactorial()" + fact);
       try {  
 	   Thread.sleep(400);  
@@ -23,6 +24,7 @@ class Sum {
 	synchronized void printSum(int n1, int n2 ) {  
 	  long sum = 0l;	
 	  sum = n1 + n2;
+	  System.out.println(Thread.currentThread().getName());
 	  System.out.println("@printSum()" + sum);
       try {  
 	   Thread.sleep(400);  
@@ -73,6 +75,11 @@ public class SyncThread  {
 		process1 t2=new process1(obj1, 4);    
 		process2 t3=new process2(obj2, 1, 2); 
 		process2 t4=new process2(obj2, 5, 6);  
+		
+		t1.setName("process 1- thread1");
+		t2.setName("process 1- thread2");
+		t3.setName("process 2- thread3");
+		t4.setName("process 2- thread4");
 		
 		t1.start();  
 		t2.start(); 
