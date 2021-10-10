@@ -1,4 +1,4 @@
-package assignment.a4.oops.a4_3_polymorphism_3.pkg_pen;
+package assignment.a4.oops.a4_3_polymorphism;
 
 abstract class Pen {
 	abstract public void  write();

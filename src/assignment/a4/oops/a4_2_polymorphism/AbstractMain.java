@@ -1,4 +1,4 @@
-package assignment.a4.oops.a4_2_polymorphism_2;
+package assignment.a4.oops.a4_2_polymorphism;
 
 abstract class MNC {
 	String name_of_company;

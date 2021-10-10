@@ -1,4 +1,4 @@
-package assignment.a4.oops.a4_3_polymorphism_3.pkg_evolution;
+package assignment.a4.oops.a4_3_polymorphism;
 abstract class Monkey {
 	abstract public  void jump();
 	abstract public  void bite();
