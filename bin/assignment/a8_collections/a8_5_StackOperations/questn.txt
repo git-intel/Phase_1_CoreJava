@@ -1,0 +1,14 @@
+Add 10 element to stack
+
+Add 5 string, 3 int, 2 float (using push method)
+
+Traverse through it – using for each.
+
+After that, we have to remove 2 elements.
+
+Then retrieve all elements.
+ 
+
+- add these elements using push()  -  remove two elements using pop()   - get the top of the elemnt using peek()   - print all the elemtns of the stack
+
+ 
